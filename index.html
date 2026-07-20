@@ -507,6 +507,7 @@ const SEED = {
   cl610: { id:'cl610', name:'CL610 — Contracts', badge:'b-contracts', label:'CONTRACTS', weeks:[
     { w:1, topic:'Introduction to contract law & sources', tags:['common law','UCC','Restatement','case briefs','study skills'], notes:[
       {t:'concept', n:'📖 Reading — Ferriell, Understanding Contracts §§1.01–1.04, §§4.01–4.03, §4.07. Required cases: Balfour v. Balfour; Texaco v. Pennzoil; Lucy v. Zehmer; Hawkins v. McGee.'},
+      {t:'concept', n:'⭐ BAR-PREP REFERENCE (saved): Valeria Braden "Bar Exam Prep — CONTRACTS" guide covers every contracts doctrine in MBE+essay format (Attack Statement, Elements, Memory line, MCQ recognition words, Common MBE Traps, Compare tables). Files: ~/Library/CloudStorage/OneDrive-Personal/Bar Prep Guides/BarPrep_Contracts_Braden.pdf. Topics: formation/objective theory, offer & termination, acceptance & mailbox rule, consideration, promissory estoppel, modification, warranties, defenses (capacity, duress, misrep/fraud, mistake, illegality, unconscionability), Statute of Frauds, parol evidence, conditions & performance, material breach, UCC perfect tender, anticipatory repudiation, risk of loss, impossibility/impracticability/frustration, damages (expectation/consequential/liquidated/reliance), specific performance, third-party beneficiaries, assignment/delegation/novation.'},
       {t:'exam', n:'📋 Module 1 (Contract Formation — Overview & Offer): Graded — Resource Quiz (10 pts); Seminar (ungraded). Course note: 15 live seminars (Modules 1–15), up to 2 pts each = 26 pts (Modules 1 & 15 ungraded); plus up to 14 holistic participation pts graded in Module 15.'},
       {t:'concept', n:'A contract is a legally enforceable promise. Core elements: offer, acceptance, consideration, and mutual assent (meeting of the minds).'},
       {t:'concept', n:'Sources: common law (services/real property), UCC Article 2 (goods), Restatement Second (persuasive authority).'},
@@ -877,6 +878,7 @@ const SEED = {
   cl623: { id:'cl623', name:'CL623 — Torts I', badge:'b-torts', label:'TORTS', weeks:[
     { w:1, topic:'Introduction to tort law & intentional torts overview', tags:['tort','intent','intentional torts','transferred intent'], notes:[
       {t:'concept', n:'📖 Reading — Module 1 (Introduction to Torts): no assigned reading.'},
+      {t:'concept', n:'⭐ BAR-PREP REFERENCE (saved): Valeria Braden "Bar Exam Prep — TORTS" guide covers every torts doctrine in MBE+essay format (Attack Statement, Elements, Memory line, MCQ recognition words, Common MBE Traps, Compare tables, Torts Essay Order). Files: ~/Library/CloudStorage/OneDrive-Personal/Bar Prep Guides/BarPrep_Torts_Braden.pdf. Topics: intent (desire/substantial certainty), transferred intent, the intentional torts (battery, assault, false imprisonment, IIED, trespass to land/chattels, conversion), economic torts, all the defenses/privileges (consent, self-defense, defense of others/property, recapture, shopkeeper\'s, necessity), negligence (duty/Andrews, reasonable person, professional, landowner, breach, negligence per se, res ipsa, actual & proximate cause, Summers/market-share, joint tortfeasors, damages, contributory/comparative negligence, assumption of risk, immunities), NIED, strict liability (animals/abnormally dangerous), products liability, nuisance, defamation, and invasion of privacy.'},
       {t:'exam', n:'📋 Syllabus — Module 1 (Introduction to Torts): No assigned reading. Graded: Resource Quiz (10 pts, untimed); ungraded Seminar. Course note: 15 live seminars (Modules 1–15), up to 2 pts each = 26 pts, plus up to 24 holistic participation pts graded in Module 15.'},
       {t:'concept', n:'A tort is a civil wrong causing harm or loss resulting in legal liability. Distinguished from crime (public wrong) and contract (private agreement breach).'},
       {t:'concept', n:'Three categories: intentional torts, negligence, strict liability.'},
@@ -1294,7 +1296,7 @@ const SEED = {
 const SUPABASE_URL = "https://mdlonovzxkpcahopwvac.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_eDBryBuAuIAR71DHilWmiA_h1CP1nx2";
 const CLOUD_KEY = "lawhub_v1"; // law-school data is stored under its own key, separate from real-estate data
-const SEED_VERSION = "2026-07-20-cl600-mod9-graded"; // bump when built-in SEED content changes, so new content merges into the cloud
+const SEED_VERSION = "2026-07-20-barprep-refs"; // bump when built-in SEED content changes, so new content merges into the cloud
 const supa = (window.supabase && SUPABASE_URL.indexOf("http") === 0)
   ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 
