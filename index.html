@@ -461,6 +461,8 @@ const SEED = {
       {t:'concept', n:'📖 Reading — No textbook reading assigned (other materials may be posted in the module).'},
       {t:'concept', n:'Module 9 — closed-book Contracts mini-essay practice (offer / acceptance / consideration analysis).'},
       {t:'exam', n:'📋 Module 9 (Applying the Law: Contracts): Graded — Mini Essay Fact Pattern (closed book, 100 pts); Seminar (2 pts).'}
+    ,
+      {t:'grade', n:'Graded Mod 9 mini-essay (Score: 62/100). Fact pattern: Norse offers Odin his motorcycle for $3,000, open until Jan 1; Odin replies \'How about $2,500?\'; Norse says that won\'t work, offer stands; Odin then accepts. Professor feedback / lessons: (1) The \'How about $2,500?\' line is a MERE INQUIRY, NOT a counteroffer — the words \'how about\' signal an inquiry about whether the offeror would consider a lower price, which does NOT reject or terminate the offer. Give it its OWN clean \'Counteroffer\' mini-IRAC that CONCLUDES it was an inquiry (my submitted version muddled it by calling it \'merely a counteroffer,\' which contradicted the surrounding analysis and cost points). (2) CHOICE OF LAW (UCC vs. common law) should be explained FIRST, before contract formation. (3) PROOFREAD — typos hurt (I wrote \'a mere injury\' instead of \'inquiry,\' \'mad a valid offer,\' \'each part incurs,\' \'refusal to see the motorcycle\'). Correct conclusion (enforceable contract) was reached. Takeaway for all essays: when the fact pattern uses tentative words like \'How about…?\' / \'Would you consider…?\', treat it as an INQUIRY (offer survives); a COUNTEROFFER needs a definite new proposal on different terms. Structure: Choice of Law → formation (offer → counteroffer/inquiry → acceptance → consideration) → defenses (none) → conclusion.'}
     ]},
     { w:10, topic:'Applying the Law: Contracts (mini essay)', tags:['contracts','mini essay','practice'], notes:[
       {t:'concept', n:'📖 Reading — No textbook reading assigned (other materials may be posted in the module).'},
@@ -1292,7 +1294,7 @@ const SEED = {
 const SUPABASE_URL = "https://mdlonovzxkpcahopwvac.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_eDBryBuAuIAR71DHilWmiA_h1CP1nx2";
 const CLOUD_KEY = "lawhub_v1"; // law-school data is stored under its own key, separate from real-estate data
-const SEED_VERSION = "2026-07-16-cl623-wk11-actualcause"; // bump when built-in SEED content changes, so new content merges into the cloud
+const SEED_VERSION = "2026-07-20-cl600-mod9-graded"; // bump when built-in SEED content changes, so new content merges into the cloud
 const supa = (window.supabase && SUPABASE_URL.indexOf("http") === 0)
   ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 
